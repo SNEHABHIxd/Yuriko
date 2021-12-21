@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/Yuriko 
-RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
+COPY requirements.txt
 
 
 #Copy config file to /root/Yuriko/Yuriko
