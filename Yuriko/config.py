@@ -26,7 +26,33 @@ class Config(object):
     EVENT_LOGS = (
         -1001150905176
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-
+    ARQ_API = Config.ARQ_API_KEY
+    ARQ_API_URL = Config.ARQ_API_URL
+    DONATION_LINK = Config.DONATION_LINK
+    LOAD = Config.LOAD
+    TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
+    OPENWEATHERMAP_ID = Config.OPENWEATHERMAP_ID
+    NO_LOAD = Config.NO_LOAD
+    HEROKU_API_KEY = Config.HEROKU_API_KEY
+    HEROKU_APP_NAME = Config.HEROKU_APP_NAME
+    DEL_CMDS = Config.DEL_CMDS
+    STRICT_GBAN = Config.STRICT_GBAN
+    WORKERS = Config.WORKERS
+    REM_BG_API_KEY = Config.REM_BG_API_KEY
+    BAN_STICKER = Config.BAN_STICKER
+    ALLOW_EXCL = Config.ALLOW_EXCL
+    CASH_API_KEY = Config.CASH_API_KEY
+    TIME_API_KEY = Config.TIME_API_KEY
+    WALL_API = Config.WALL_API
+    SUPPORT_CHAT = Config.SUPPORT_CHAT
+    SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
+    SPAMWATCH_API = Config.SPAMWATCH_API
+    SESSION_STRING = Config.SESSION_STRING
+    INFOPIC = Config.INFOPIC
+    BOT_USERNAME = Config.BOT_USERNAME
+    STRING_SESSION = Config.STRING_SESSION
+    LASTFM_API_KEY = Config.LASTFM_API_KEY
+    CF_API_KEY = Config.CF_API_KEY
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
     LOAD = []
